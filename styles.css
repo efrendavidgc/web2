@@ -1,0 +1,56 @@
+/* Global page styles */
+body {
+  font-family: Arial;
+  margin: 20px;
+  background: #f4f4f4; /* Light grey page background */
+}
+
+/* Center the main page title */
+h1 {
+  text-align: center;
+}
+
+/* Card-style container for each section (Users, Products, Orders) */
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Add spacing and padding to all form inputs */
+form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+/* Style all buttons with padding and a pointer cursor on hover */
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Space above the dynamically populated lists */
+ul {
+  margin-top: 10px;
+}
+
+/* Ping section button style */
+#pingSection button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 1rem;
+}
+
+#pingSection button:hover {
+  background-color: #0056b3;
+}
+
+#pingResult {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
